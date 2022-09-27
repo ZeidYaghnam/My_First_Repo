@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(63, 63, 63);
+    align-items: center;
+}
+
+nav ul li{
+    display:inline-block;
+    padding: 20px;
+    color: white;
+}
+
+div#left{
+    display: block;
+    float: left;
+    background-color: blue;
+    width: 30%;
+    height: 100vh;
+}
+
+div#right{
+    display: block;
+    float: right;
+    background-color: red;
+    width: 70%;
+    height: 100vh;
+}
